@@ -8,7 +8,7 @@ const nextConfig = {
     unoptimized: true,
   },
   // Trailing slash for better static file handling
-  trailingSlash: true,
+  // trailingSlash: true,
   eslint: {
     ignoreDuringBuilds: true,
   },
