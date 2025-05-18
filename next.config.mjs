@@ -1,14 +1,12 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
   reactStrictMode: true,
-  // Use static export
-  // output: 'export',
-  // Disable image optimization since we're using static export
+  output: 'standalone',
   images: {
     unoptimized: true,
+    domains: ['firebasestorage.googleapis.com', 'hebbkx1anhila5yf.public.blob.vercel-storage.com'],
   },
-  // Trailing slash for better static file handling
-  // trailingSlash: true,
+  trailingSlash: false,
   eslint: {
     ignoreDuringBuilds: true,
   },
