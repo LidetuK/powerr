@@ -1,0 +1,10 @@
+/* TEAM */
+Name: POWWRR Team
+Site: https://powwrr.com
+Twitter: @powwrr
+Location: Global
+
+/* SITE */
+Last update: 2023-05-18
+Standards: HTML5, CSS3
+Components: Next.js, Tailwind CSS

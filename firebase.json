@@ -1,0 +1,19 @@
+{
+  "hosting": {
+    "public": "out",
+    "ignore": ["firebase.json", "**/.*", "**/node_modules/**"],
+    "rewrites": [
+      {
+        "source": "/_not-found",
+        "destination": "/404.html"
+      }
+    ],
+    "redirects": [
+      {
+        "source": "/_error",
+        "destination": "/404.html",
+        "type": 302
+      }
+    ]
+  }
+}
